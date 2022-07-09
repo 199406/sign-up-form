@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side-section {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+
+}
+
+.logo-container {
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+}
+
+.logo-container img {
+    width: 5rem;
+    padding: 10px;
+}
+
+.logo-container p{
+    font-family: inherit;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.right-side-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main-text {
+    background-color: #f8f9fa;
+    font-size: larger;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 90px 20px 20px 30px;
+}
+
+.main-text p {
+    padding: 10px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+
+}
+
+.input {
+    margin-top: 15px;
+}
+
+
+
+.input label {
+    text-transform: uppercase;
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+
+.input input {
+    height: 25px;
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+.input input:focus {
+    outline: none !important;
+    border: 1.5px solid cornflowerblue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+}
+
+.error-message {
+   font-size: 0.8em;
+}
+
+.submitbtn {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.submitbtn button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    border: 1px solid #596D48;
+}
+
+.submit-section p {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+
+.submit-section p span {
+    color: #596D48;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="left-side-section">
+            <div class="logo-container">
+                <img src="./images/odin.png" alt="page logo">
+                <p>odin</p>
+            </div>
+        </div>
+
+        <div class="right-side-section">
+            <div class="main-text">
+    
+                    <p>This is not a real service! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lacus nibh, nec volutpat urna lobortis vel. Mauris vel semper orci, interdum imperdiet elit.</p>
+
+                    <p>You know u want to.</p>
+            </div>
+           
+                <form action="#" method="post" class="form-section" id="sing-up-form" onsubmit="return false">
+                   
+                    <div class="first-section">
+                        <div class="input">
+                            <label for="fname">First Name</label><br/>
+                            <input type="text" id="fname" name="fname" required/>
+                        </div>
+
+                        <div class="input">
+                            <label for="email">Email</label><br/>
+                            <input type="email" id="email" name="email" required/>
+                        </div>
+
+                        <div class="input">
+                            <label for="upassword">Password</label><br/>
+                            <input type="password" id="upassword" name="upassword" required/>
+                        </div>
+
+                        <div class="error-message"></div>
+                    
+                    </div>
+
+                    <div class="second-section">
+
+                        <div class="input">
+                            <label for="lname">Last Name</label><br/>
+                            <input type="text" id="lname" name="lname" required/>
+                        </div>
+
+                        <div class="input">
+                            <label for="pnumber">Phone Number</label><br/>
+                            <input type="text" id="pnumber" name="pnumber" required/>
+                        </div>
+    
+                        
+    
+                        <div class="input">
+                            <label for="cpassword">Confirm Password</label><br/>
+                            <input type="password" id="cpassword" name="cpassword" required/>
+                        </div>
+
+                        
+                    </div>
+                </form>
+           
+            <div class="submit-section">
+                <div class="submitbtn">
+                    <button type="submit" form="sing-up-form" class="submit">Create Account</button>
+                </div>
+                <p>Already have an account? <span>Log in</span></p>
+            </div>
+        </div>
+      </div>
+
+      <script src="main.js"></script>
+    </body>
+</html>
